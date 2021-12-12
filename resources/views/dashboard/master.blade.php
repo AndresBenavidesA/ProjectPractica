@@ -12,10 +12,10 @@
 <body>
 @include('dashboard.structure.navbar')
     <div class="container">
-        <div class="jumbotron">
+     
             @include('dashboard.structure.status')
             @yield('content')
-        </div>
+        
     </div>
     <script src="{{ asset('js/app.js')}}"></script>
 </body>

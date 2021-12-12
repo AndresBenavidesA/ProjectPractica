@@ -5,3 +5,4 @@
         @include('dashboard.post.form')
     </form>
 @endsection
+

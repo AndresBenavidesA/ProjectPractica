@@ -18,7 +18,7 @@ class CreatePostsTable extends Migration
             $table->string('publication')->nullable()->default('text');
             $table->text('content')->nullable();
             $table->enum('state', ['received', 'in_evaluation','accepted'])->nullable()->default('received');
-            $table->bigInteger('category_id')->nullable();
+            
             $table->timestamps();
         });
     }
